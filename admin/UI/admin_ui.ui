@@ -1,0 +1,2473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="window">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-30</y>
+      <width>1281</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gabriola</family>
+      <pointsize>36</pointsize>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_0">
+     <widget class="QPushButton" name="button_1">
+      <property name="geometry">
+       <rect>
+        <x>438</x>
+        <y>389</y>
+        <width>412</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 20px;
+color: #000000;
+background: #21A81E;</string>
+      </property>
+      <property name="text">
+       <string>Sign in to server console</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>620</y>
+        <width>312</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 20px;
+color: #000000;
+background: #C6C6C6;</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>80</y>
+        <width>675</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>72</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Admin Console</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_1">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>391</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Название команды</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>411</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>320</y>
+        <width>411</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Список команд</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>380</y>
+        <width>411</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_3">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>670</y>
+        <width>411</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Main Menu</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_4">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>170</y>
+        <width>211</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Add new</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>40</y>
+        <width>391</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Максимальное кол-во сутдентов в командах</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>100</y>
+        <width>141</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_5">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>100</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Change</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>160</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Установить таймер на выполнение задания</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>220</y>
+        <width>141</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_6">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>220</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Change</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>40</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Текущий таймер</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>280</y>
+        <width>391</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выбрать номер задания</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>340</y>
+        <width>141</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_7">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>340</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Change</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_8">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>430</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>380</y>
+        <width>391</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Открыть PDF с заданиями</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_9">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>510</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #21A81E;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>START competition</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_10">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>580</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #9A0000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>STOP / RESET</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>160</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Текущий номер задания</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>220</y>
+        <width>401</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>30</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>250</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Статус соревнования</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>290</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>OFFLINE</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_11">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>670</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>610</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Перейти к отслеживанию действий команд</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_13">
+      <property name="geometry">
+       <rect>
+        <x>94</x>
+        <y>250</y>
+        <width>241</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #9A0000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Delete selected team</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="timer_sec">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>100</y>
+        <width>141</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+border: 2px solid #FF0000;
+box-sizing: border-box;
+border-radius: 6px;</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>5</number>
+      </property>
+      <property name="mode">
+       <enum>QLCDNumber::Dec</enum>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+      <property name="value" stdset="0">
+       <double>0.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="timer_min">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>100</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+border: 2px solid #FF0000;
+box-sizing: border-box;
+border-radius: 6px;</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>false</bool>
+      </property>
+      <property name="digitCount">
+       <number>2</number>
+      </property>
+      <property name="mode">
+       <enum>QLCDNumber::Dec</enum>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+      <property name="value" stdset="0">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="intValue" stdset="0">
+       <number>0</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_1t">
+     <property name="font">
+      <font>
+       <family>Gabriola</family>
+       <pointsize>9</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>13</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>120</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>39</number>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Ход №</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Студент</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Время конца хода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Номер строки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Введенная строка</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Команда</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_12">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>660</y>
+        <width>291</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Back to edit server</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_14">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2t">
+     <property name="font">
+      <font>
+       <family>Gabriola</family>
+       <pointsize>9</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>13</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>120</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>39</number>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Ход №</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Студент</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Время конца хода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Номер строки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Введенная строка</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_17">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>660</y>
+        <width>291</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Back to edit server</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_15">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Команда</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_16">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3t">
+     <property name="font">
+      <font>
+       <family>Gabriola</family>
+       <pointsize>9</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>13</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>120</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>39</number>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Ход №</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Студент</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Время конца хода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Номер строки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Введенная строка</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="button_18">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>660</y>
+        <width>291</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Back to edit server</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_20">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_19">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Команда</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4t">
+     <property name="font">
+      <font>
+       <family>Gabriola</family>
+       <pointsize>9</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <widget class="QTableWidget" name="tableWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>13</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>120</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>39</number>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Ход №</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Студент</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Время конца хода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Номер строки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Введенная строка</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="button_22">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_23">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_21">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>660</y>
+        <width>291</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Back to edit server</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Команда</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5t">
+     <property name="font">
+      <font>
+       <family>Gabriola</family>
+       <pointsize>9</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <widget class="QTableWidget" name="tableWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>13</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>120</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>39</number>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Ход №</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Студент</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Время конца хода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Номер строки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Введенная строка</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="button_24">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>660</y>
+        <width>291</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Back to edit server</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Команда</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_25">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_26">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6t">
+     <property name="font">
+      <font>
+       <family>Gabriola</family>
+       <pointsize>9</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <widget class="QTableWidget" name="tableWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>13</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>120</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>39</number>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Ход №</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Студент</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Время конца хода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Номер строки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Введенная строка</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Команда</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_27">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>660</y>
+        <width>291</width>
+        <height>56</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Back to edit server</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_28">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>650</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #000000;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>50</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gabriola</family>
+        <pointsize>20</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdmin_Console">
+    <property name="title">
+     <string>Admin Console</string>
+    </property>
+   </widget>
+   <addaction name="menuAdmin_Console"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>645</x>
+     <y>646</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
